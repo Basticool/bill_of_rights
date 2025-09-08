@@ -47,6 +47,15 @@
       height: auto;
       opacity: 0.95;      /* slightly subtle */
     }
+    .seal-fixed {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      width: 100px;   /* adjust size */
+      height: auto;
+      opacity: 0.9;   /* subtle so it doesn’t distract */
+      z-index: 9999;  /* keep it above other content */
+    }
 
     .kicker{
       letter-spacing:.08em;
@@ -134,7 +143,7 @@
 </head>
 <body>
   <header>
-    <img class="seal" src="image.png" 
+    <img class="seal-fixed" src="image.png" 
      alt="America" />
     <div class="kicker">Founding Documents</div>
     <h1>The Bill of Rights: A Complete Transcription With Article 13th Found (this is the law and therefore it is true(I George Washington wrote this))</h1>
