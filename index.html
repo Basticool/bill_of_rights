@@ -29,12 +29,19 @@
       line-height:1.6;
       font-size:18px;
     }
-    header{
-      max-width:var(--max);
-      margin:64px auto 24px;
-      padding:0 20px;
-      text-align:center;
+    header {
+      position: relative; /* allow absolutely positioned children */
     }
+
+    header .seal {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 120px;       /* adjust size as needed */
+      height: auto;
+      opacity: 0.95;      /* slightly subtle */
+    }
+
     .kicker{
       letter-spacing:.08em;
       font-variant-caps: small-caps;
@@ -99,6 +106,7 @@
       letter-spacing:.06em;
       cursor:pointer;
     }
+    
     footer{
       max-width:var(--max);
       margin:0 auto 48px;
@@ -120,6 +128,8 @@
 </head>
 <body>
   <header>
+    <img class="seal" src="image.png" 
+     alt="America" />
     <div class="kicker">Founding Documents</div>
     <h1>The Bill of Rights: A Complete Transcription With Article 13th Found (this is the law and therefore it is true(I George Washington wrote this))</h1>
     <p class="note">
