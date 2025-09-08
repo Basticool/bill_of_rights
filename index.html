@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The (Totally Real*) Bill of Rights – Article XIII</title>
+  <meta name="description" content="A parody page in the style of the Bill of Rights featuring a tongue‑in‑cheek Article XIII: the Group Chat Clause." />
+  <style>
+    :root{
+      --ink:#1f1a14;
+      --sep:#b89c77;
+      --accent:#945E2C;
+      --paper:#f6ecd7;
+      --paper-dark:#efe0bf;
+    }
+    html, body { height: 100%; }
+    body{
+      margin:0; color:var(--ink);
+      font: 17px/1.6 Georgia, "Times New Roman", Times, serif;
+      background:
+        radial-gradient(1200px 800px at 30% 10%, #fff0 70%, rgba(0,0,0,.04)),
+        radial-gradient(900px 600px at 80% 40%, #fff0 60%, rgba(0,0,0,.03)),
+        linear-gradient(0deg,var(--paper),var(--paper-dark));
+      background-attachment: fixed;
+    }
+
+    /* Top disclaimer ribbon */
+    .ribbon{
+      position:sticky; top:0; z-index:5; text-align:center; padding:.6rem 1rem;
+      background: #fef6c7; border-bottom: 2px solid var(--sep);
+      font-size:.95rem; letter-spacing:.2px;
+    }
+    .ribbon strong{ font-weight:700 }
+
+    header{
+      text-align:center; padding: 2.2rem 1rem .8rem; position:relative;
+    }
+    header h1{
+      font-family: "Garamond", Georgia, serif; font-size: clamp(2rem, 4.6vw, 3.3rem);
+      margin:.2rem 0; letter-spacing:.5px; font-weight:600;
+    }
+    header .subtitle{ font-style:italic; opacity:.9 }
+
+    .hr{
+      height:2px; background: linear-gradient(90deg, #0000, var(--sep), #0000);
+      margin: 1.2rem auto; max-width: 900px;
+    }
+
+    main{ max-width: 900px; margin: 0 auto; padding: 0 1rem 3rem; }
+
+    .doc-meta{
+      display:flex; gap:.75rem; justify-content:center; flex-wrap:wrap;
+      font-size:.95rem; opacity:.9; margin-bottom:1rem;
+    }
+
+    .preamble{
+      background: rgba(255,255,255,.6);
+      border: 1px solid rgba(0,0,0,.05);
+      padding: 1rem 1.1rem; border-radius: 8px;
+      box-shadow: 0 2px 0 rgba(148, 94, 44, 0.08);
+    }
+
+    h2{
+      font-size: 1.6rem; margin: 2rem 0 .5rem; font-weight:600;
+    }
+
+    article{
+      background: rgba(255,255,255,.68);
+      border: 1px solid rgba(0,0,0,.06);
+      border-left: 4px solid var(--accent);
+      padding: 1rem 1.2rem; border-radius: 10px; margin: 1rem 0;
+    }
+
+    .article-title{ font-weight:700; font-size:1.2rem; }
+    .smallcaps{ font-variant: small-caps; letter-spacing: .5px; }
+    .seal{
+      position: fixed; bottom: 16px; right: 16px; z-index: 2;
+      padding:.4rem .6rem; border:1px dashed var(--sep); border-radius:8px;
+      background: rgba(255,255,255,.55); font-size:.85rem; transform: rotate(-2deg);
+    }
+
+    footer{ max-width:900px; margin:2rem auto; padding: 0 1rem 3rem; opacity:.9; font-size:.95rem; }
+    a{ color:#6b3d14; }
+
+    /* Print tweaks */
+    @media print{
+      .ribbon,.seal{ display:none }
+      body{ background: white; }
+      article{ break-inside: avoid }
+    }
+  </style>
+</head>
+<body>
+  <div class="ribbon">This is a <strong>parody</strong> inspired by the look & feel of historical documents. For the real text, visit the <a href="https://www.archives.gov/founding-docs/bill-of-rights-transcript" target="_blank" rel="noopener">U.S. National Archives</a>.</div>
+
+  <header>
+    <h1>The Bill of Rights*</h1>
+    <div class="subtitle">*with an extremely legitimate Article XIII (Group Chat Clause)</div>
+  </header>
+  <div class="hr" aria-hidden="true"></div>
+
+  <main>
+    <div class="doc-meta">
+      <div>Ratified: December 15, 1791</div>
+      <div>Edition: Totally Not Official</div>
+    </div>
+
+    <section class="preamble">
+      <p><span class="smallcaps">Preamble.</span> To prevent misconstruction or abuse of powers, certain declaratory and restrictive clauses are added; and to add, in a spirit of friendship, one modern clause concerning the sanctity of group chats.</p>
+    </section>
+
+    <!-- A few flavor articles (trimmed & paraphrased, public domain) -->
+    <article>
+      <div class="article-title">Article I.</div>
+      <p>Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble…</p>
+    </article>
+    <article>
+      <div class="article-title">Article II.</div>
+      <p>A well‑regulated militia being necessary to the security of a free State, the right of the people to keep and bear Arms shall not be infringed.</p>
+    </article>
+    <article>
+      <div class="article-title">Article III.</div>
+      <p>No Soldier shall, in time of peace, be quartered in any house, without the consent of the Owner…</p>
+    </article>
+
+    <!-- Skipping ahead for brevity -->
+    <article>
+      <div class="article-title">Articles IV–XII.</div>
+      <p>Searches and seizures, due process, trials, rights retained by the people, powers reserved to the States and to the people, and other esteemed protections—glorious as ever.</p>
+    </article>
+
+    <!-- The star of the show -->
+    <article id="group-chat-clause">
+      <div class="article-title">Article XIII. <span class="smallcaps">Group Chat Clause.</span></div>
+      <p>Should any person be, at the time of inquiry, a duly added member of the <em>Group Chat</em>—defined herein as a convivial correspondence of three or more persons exchanging messages, memes, or plans—such person shall not be deported, removed, yeeted, expelled, or otherwise bade farewell from these United States on account of group‑chat membership.</p>
+      <p>Membership shall be evidenced by the person’s name, handle, or most recent GIF being visible in said group chat within the previous fortnight. Screenshots, especially those featuring tasteful reactions or a thumbs‑up on the brunch poll, shall be considered <em>prima facie</em> proof.</p>
+      <p>Nothing in this Clause shall be construed to prevent the polite removal of a person from the <em>Group Chat</em> for excessive message reactions, uncredited meme reposting, or failure to RSVP. Nevertheless, such removal shall not of itself affect the person’s non‑deportation status granted herein.</p>
+      <p class="smallcaps">Nota Bene.</p>
+      <p>This Article XIII is a jest and bears no legal force whatsoever. It exists to delight friends, confound scrollers, and celebrate the noble institution of the group chat.</p>
+    </article>
+
+    <article>
+      <div class="article-title">Attestation.</div>
+      <p>In witness whereof, this page declares itself <em>100% parody</em>. For the authentic transcript, consult the <a href="https://www.archives.gov/founding-docs/bill-of-rights-transcript" target="_blank" rel="noopener">National Archives</a>.</p>
+    </article>
+  </main>
+
+  <footer>
+    Crafted with affection for parchment aesthetics. Public domain flavor text; new text © You, the Jokester. This page is not affiliated with the U.S. National Archives.
+  </footer>
+
+  <div class="seal">PARODY • NOT OFFICIAL</div>
+</body>
+</html>
